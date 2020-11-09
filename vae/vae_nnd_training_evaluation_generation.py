@@ -49,7 +49,7 @@ spdblue = (0/255, 124/255, 146/255)
 drop_prob = 0.0
 
 # Set patience for Early Stopping
-patience = 2
+patience = 80
 
 ####################################### LOAD DATA #######################################
 train_dataset = torch.load('train_data_scaled_pxpypz_g_'+ str(num_particles) +'p.pt')
